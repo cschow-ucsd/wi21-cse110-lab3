@@ -1,31 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Chi's GitHub User Page</title>
-    </head>
-    <body>
-        <h1>Hello there! I'm Chi</h1>
-        
-        <h2>About me</h2>
-        
-        <h3>Education</h3>
-        <ul>
-            <li>University of California, San Diego</li>
-            <li>Class of 2023</li>
-            <li>Major in Computer Engineering</li>
-        </ul>
-        <h3>My life goals</h3>
-        <ul>
-            <li>Go to college</li>
-            <li>Be a good software engineer</li>
-            <li>Getting sleep</li>
-            <li>Not getting sleep</li>
-        </ul>
 
-        <h2>One of my favorites</h2>
-        <img src="meme.png">
+<head>
+    <title>Chi's GitHub User Page</title>
+    <meta name="Chi's GitHub User Page" content="chi,chow,github,about">
+    <link rel="icon" href="favicon.ico">
+</head>
 
-        <h2>Last but not least</h2>
-        <a href="hehe.txt">Hehe</a>
-    </body>
+<body>
+    <header>
+        <h1>Hello there! I'm Chi.</h1>
+        <picture>
+            <source media="(min-width:1000px)" srcset="icons/keyboard-512x512.png">
+            <img src="icons/keyboard-192x192.png" alt="">
+        </picture>
+        <nav>
+            <p><a href="#about">About</a></p>
+            <p><a href="#projects">Projects</a></p>
+        </nav>
+    </header>
+
+    <hr>
+
+    <main>
+        <section>
+            <div id="about">
+                <h2>About me</h2>
+
+                <h3>Education</h3>
+                <ul>
+                    <li>University of California, San Diego</li>
+                    <li>Class of 2023</li>
+                    <li>Major: <br> <b><i>Computer Engineering</i></b></li>
+                </ul>
+                <h3>My life goals</h3>
+                <ol>
+                    <li>Go to college</li>
+                    <li>Be a good software engineer</li>
+                    <li>Getting sleep</li>
+                    <li>Not getting sleep</li>
+                    <li><code>git push --force <span style="color: red;">?</span><span style="color: green;">?</span><span style="color: blue;">?</span></code></li>
+                </ol>
+            </div>
+
+        </section>
+
+        <section>
+            <h2 id="projects">Projects</h2>
+            <ul>
+                <li><a href="https://github.com/cschow-ucsd/micromanager">Micromanager</a></li>
+                <li><a href="https://github.com/cschow-ucsd/Base11-FC">Base11-FC</a></li>
+                <li><a href="https://github.com/cschow-ucsd/Lingua">Lingua</a></li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>One of my favorites</h2>
+            <figure>
+                <img src="meme.png">
+                <figcaption>Android Studio <em>warms</em> your PC :)</figcaption>
+            </figure>
+        </section>
+    </main>
+
+    <hr>
+
+    <footer>
+        <section>
+            <h2>Random Stuff for Quaratined Programmers</h2>
+
+            <a href="hehe.txt"><pre>Hehe</pre></a>
+            <aside>What could this be?</aside>
+
+            <p><b>Iconic</b></p>
+            <audio controls>
+                <source src="audio.mp3" type="audio/mp3">
+            </audio>
+
+            <p><b>Yee</b></p>
+            <video width="320" controls>
+                <source src="yee.mp4" type="video/mp4">
+            </video>
+
+            <p><b>Hmm...</b></p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/rR4n-0KYeKQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            
+        </section>
+    </footer>
+</body>
+
 </html>
