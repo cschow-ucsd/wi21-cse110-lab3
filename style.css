@@ -1,3 +1,7 @@
 .important {
+    color: green;
+}
+
+#title {
     color: darkblue;
 }
