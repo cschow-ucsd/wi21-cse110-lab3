@@ -60,10 +60,15 @@ h2~ol {
     font-style: italic;
 }
 
+canvas {
+    display: hidden;
+}
+
 a[target] {
     font-family: 'Fira Code', monospace;
     font-size: 50px;
     text-decoration: none;
+    display: block;
 }
 
 a:link {
