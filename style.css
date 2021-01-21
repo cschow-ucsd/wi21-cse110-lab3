@@ -63,6 +63,7 @@ h2~ol {
 a[target] {
     font-family: 'Courier New', Courier, monospace;
     font-size: 50px;
+    text-decoration: none;
 }
 
 a:link {
