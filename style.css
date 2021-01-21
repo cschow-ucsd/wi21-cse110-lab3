@@ -10,6 +10,12 @@
     padding: 1em;
 }
 
+.flexbox {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
 #title {
     color: rgb(0, 0, 255);
     position: -webkit-sticky;
