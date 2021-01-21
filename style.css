@@ -15,6 +15,11 @@ p {
     color: green;
 }
 
+li a {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+}
+
 a[target] {
     font-family: 'Courier New', Courier, monospace;
 }
