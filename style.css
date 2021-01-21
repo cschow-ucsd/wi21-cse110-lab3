@@ -10,7 +10,8 @@
     color: darkblue;
 }
 
-h2 {
+h2,
+p {
     color: green;
 }
 
