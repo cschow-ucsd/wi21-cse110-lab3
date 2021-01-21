@@ -13,3 +13,7 @@
 h2 {
     color: green;
 }
+
+a[target] {
+    font-family: 'Courier New', Courier, monospace;
+}
