@@ -7,6 +7,7 @@
 
 .important {
     background-color: #FFFF00;
+    padding: 1em;
 }
 
 #title {
@@ -37,6 +38,7 @@ h2~ol {
 
 a[target] {
     font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
 }
 
 a:link {
@@ -53,4 +55,7 @@ a:hover {
 
 table.center {
     text-align: center;
+    font-size: 30px;
+    line-height: 1.5em;
+    padding: 1em;
 }
