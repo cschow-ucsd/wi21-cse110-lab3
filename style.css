@@ -6,16 +6,16 @@
 /* for important elements */
 
 .important {
-    color: red;
+    background-color: #FFFF00;
 }
 
 #title {
-    color: darkblue;
+    color: rgb(0, 0, 255);
 }
 
 h2,
 p {
-    color: green;
+    color: hsla(120, 100%, 25%, 1);
 }
 
 li a {
@@ -44,11 +44,11 @@ a:link {
 }
 
 a:visited {
-    color: purple;
+    color: rgba(128, 0, 128, 255);
 }
 
 a:hover {
-    color: black;
+    color: hsl(0, 0, 0);
 }
 
 table.center {
