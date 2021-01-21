@@ -99,6 +99,10 @@ a:hover {
     color: hsl(0, 0, 0);
 }
 
+a:active {
+    color: hotpink;
+}
+
 table.center {
     text-align: center;
     font-size: 30px;
