@@ -20,8 +20,12 @@ li a {
     font-size: large;
 }
 
-ul>li {
+p>b {
     color: brown;
+}
+
+h3~ol {
+    color: darkgoldenrod;
 }
 
 a[target] {
