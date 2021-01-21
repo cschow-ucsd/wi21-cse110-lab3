@@ -20,6 +20,10 @@ li a {
     font-size: large;
 }
 
+ul>li {
+    color: brown;
+}
+
 a[target] {
     font-family: 'Courier New', Courier, monospace;
 }
