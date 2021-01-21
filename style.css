@@ -24,8 +24,12 @@ p>b {
     color: brown;
 }
 
-h3~ol {
+h3+ol {
     color: darkgoldenrod;
+}
+
+h2~ol {
+    font-style: italic;
 }
 
 a[target] {
