@@ -3,9 +3,13 @@
 }
 
 .important {
-    color: green;
+    color: red;
 }
 
 #title {
     color: darkblue;
+}
+
+h2 {
+    color: green;
 }
