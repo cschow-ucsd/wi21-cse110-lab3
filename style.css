@@ -12,6 +12,12 @@
 
 #title {
     color: rgb(0, 0, 255);
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: gold;
+    padding: 10px;
+    border-radius: 5%;
 }
 
 #yee {
@@ -41,6 +47,11 @@
 h2,
 p {
     color: hsla(120, 100%, 25%, 1);
+}
+
+h3 {
+    position: relative;
+    left: 15px;
 }
 
 li a {
