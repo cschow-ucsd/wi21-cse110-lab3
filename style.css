@@ -64,6 +64,11 @@ canvas {
     display: hidden;
 }
 
+aside {
+    max-width: 50%;
+    max-height: 100px;
+}
+
 a[target] {
     font-family: 'Fira Code', monospace;
     font-size: 50px;
