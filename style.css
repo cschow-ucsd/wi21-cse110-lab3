@@ -61,7 +61,7 @@ h2~ol {
 }
 
 a[target] {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Fira Code', monospace;
     font-size: 50px;
     text-decoration: none;
 }
